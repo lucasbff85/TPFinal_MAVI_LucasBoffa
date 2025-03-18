@@ -1,0 +1,5 @@
+﻿  main.cpp
+  Nivel.cpp
+D:\PROGRAMACION\UNL-Tecnicatura Desarrollo de Videojuegos\Modelos y Algoritmos para Videojuegos I\TP_Final_MAVI_LucasBoffa\TP_Final_MAVI_LucasBoffa\Nivel.cpp(33,46): warning C4244: '=': conversión de 'sf::Int32' a 'float'; posible pérdida de datos
+  Generando código...
+  TP_Final_MAVI_LucasBoffa.vcxproj -> D:\PROGRAMACION\UNL-Tecnicatura Desarrollo de Videojuegos\Modelos y Algoritmos para Videojuegos I\TP_Final_MAVI_LucasBoffa\Debug\TP_Final_MAVI_LucasBoffa.exe
