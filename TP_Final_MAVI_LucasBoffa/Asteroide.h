@@ -2,6 +2,8 @@
 #include "stdafx.h"
 #include <vector>
 #include <map>
+#include <SFML/Window.hpp>
+#include <SFML/graphics.hpp>
 
 using namespace sf;
 using namespace std;
@@ -14,6 +16,7 @@ class Asteroide {
 	float angulo;
 	Vector2f direccion;
 	int nivel;
+	Sound _sound;
 
 public:
 	Sprite sprite_asteroide;
@@ -28,6 +31,5 @@ public:
 	void Dibujar(RenderWindow* wnd);
 	Vector2f Aparecer(Vector2u size);
 	Sprite& GetSprite();
-	void Desprenderse(Vector2f posicion);
-
+	int GetNivel();
 };

@@ -16,6 +16,10 @@ class Nivel {
 	float timeBetweenShots = 200.f;
 	float deltaTime;
 	int _vidas = 3;
+	SoundBuffer _disparo, _explosion1, _explosion2, _explosion3;
+
+	Sound _sonidoBala, _sonidoAsteroide1, _sonidoAsteroide2, _sonidoAsteroide3;
+	
 	//float timer;
 	
 
@@ -33,4 +37,5 @@ public:
 	void Dibujar();
 	void GenerarAsteroides();
 	int GetVidas();
+	void ReproducirExplosion(int nivel);
 };

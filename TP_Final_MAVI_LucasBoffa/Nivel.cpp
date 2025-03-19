@@ -10,6 +10,16 @@ Nivel::Nivel(){
 	_wnd->setFramerateLimit(120);
 	_jugador = new Player(_wnd);
     deltaTime = 0;
+
+    //acceder a los sonidos de explosiones con asteroides
+    _explosion1.loadFromFile("../Sounds/explosion1.wav");
+    _explosion2.loadFromFile("../Sounds/explosion2.wav");
+    _explosion3.loadFromFile("../Sounds/explosion3.wav");
+
+    _sonidoAsteroide1.setBuffer(_explosion1);
+    _sonidoAsteroide2.setBuffer(_explosion2);
+    _sonidoAsteroide3.setBuffer(_explosion3);
+
 }
 
 Nivel::~Nivel(){
@@ -56,7 +66,7 @@ void Nivel::Actualizar() {
             cout << "COLISION DETECTADA " << endl;
             _vidas--;
             _jugador->Iniciar(_wnd);
-
+            ReproducirExplosion(asteroides[i].GetNivel());
             if (asteroides[i].Esta_Vivo())
             {
                 asteroides[i].Romperse(asteroides, size);
@@ -110,6 +120,32 @@ void Nivel::Dibujar() {
 int Nivel::GetVidas() {
     return _vidas;
 }
+
+
+void Nivel::ReproducirExplosion(int nivel) {
+   
+    switch (nivel) {
+    case 1:
+        _sonidoAsteroide1.setVolume(65);
+        _sonidoAsteroide1.play();
+        break;
+    case 2:
+        _sonidoAsteroide2.setVolume(75);
+        _sonidoAsteroide2.play();
+        break;
+    case 3:
+        _sonidoAsteroide3.setVolume(85);
+        _sonidoAsteroide3.play();
+        break;
+    default:
+        _sonidoAsteroide3.setVolume(85);
+        _sonidoAsteroide3.play();
+        break;
+    }
+    
+}
+
+
 
 
 

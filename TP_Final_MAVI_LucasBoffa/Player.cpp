@@ -112,7 +112,7 @@ void Player::ManejarBordes(Vector2u size) {
 
 void Player::MovePlay()
 {
-	_sound.setVolume(45);
+	_sound.setVolume(60);
 	_sound.setLoop(true);
 	_sound.play();
 }

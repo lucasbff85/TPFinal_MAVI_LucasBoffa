@@ -2,6 +2,7 @@
 #include "random"
 #include "ctime"
 #include "iostream"
+#include "stdafx.h"
 
 using namespace std;
 using namespace sf;
@@ -9,8 +10,11 @@ using namespace sf;
 // Definir el mapa de texturas estático
 std::map<int, sf::Texture> Asteroide::texturas;
 
+
 Asteroide::Asteroide() {
 	int numero = rand() % 3 + 1;
+
+	
 
 	// Cargar la textura solo si no está en el mapa
 	if (texturas.find(numero) == texturas.end()) {
@@ -43,14 +47,6 @@ void Asteroide::Iniciar(Vector2u size) {
 	direccion.y = sin(angulo * 3.14159f / 180.0f);
 }
 
-
-void Asteroide::Desprenderse(Vector2f posicion) {
-	sprite_asteroide.setPosition(posicion);
-	//direccion
-	angulo = rand() % 360;
-	direccion.x = -cos(angulo * 3.14159f / 180.0f);
-	direccion.y = sin(angulo * 3.14159f / 180.0f);
-}
 
 bool Asteroide::Esta_Vivo() const {
 	return esta_vivo;
@@ -137,8 +133,10 @@ void Asteroide::Actualizar(float deltaTime, Vector2u size) {
 }
 
 void Asteroide::Romperse(std::vector<Asteroide>& asteroides, Vector2u size) {
-	nivel--;
-	if (nivel <= 0) {
+	cout << "Reproduciendo sonido para el nivel: " << nivel << endl;
+	//nivel--;
+	int nivelNuevo = nivel - 1;
+	if (nivelNuevo <= 0) {
 		esta_vivo = false;
 		return;
 	}
@@ -158,11 +156,9 @@ void Asteroide::Romperse(std::vector<Asteroide>& asteroides, Vector2u size) {
 	for (int i = 0; i < 3; i++)
 	{
 		Asteroide newAsteroid;
-		//newAsteroid.Iniciar(size);  // Inicializar con tamaño de la ventana
 		newAsteroid.sprite_asteroide.setScale(newSize);
-		newAsteroid.Desprenderse(posicion);
-		//newAsteroid.sprite_asteroide.setPosition(sprite_asteroide.getPosition());
-		newAsteroid.nivel = nivel;
+		newAsteroid.sprite_asteroide.setPosition(posicion);
+		newAsteroid.nivel=nivelNuevo;
 
 		// Generar direcciones opuestas
 		if (i == 0) {
@@ -202,3 +198,8 @@ void Asteroide::Dibujar(RenderWindow* wnd) {
 Sprite& Asteroide::GetSprite() {
 	return sprite_asteroide;
 }
+
+int Asteroide::GetNivel() {
+	return nivel;
+}
+
