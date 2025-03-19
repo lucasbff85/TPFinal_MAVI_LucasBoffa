@@ -130,6 +130,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Asteroide.cpp" />
     <ClCompile Include="Disparo.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="main.cpp" />
@@ -137,6 +138,7 @@
     <ClCompile Include="Player.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Asteroide.h" />
     <ClInclude Include="Disparo.h" />
     <ClInclude Include="End.h" />
     <ClInclude Include="Game.h" />

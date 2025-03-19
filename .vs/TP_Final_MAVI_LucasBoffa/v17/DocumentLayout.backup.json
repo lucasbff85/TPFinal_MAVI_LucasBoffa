@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TP_Final_MAVI_LucasBoffa\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5ABFB044-5BF6-43AB-899A-FC09CE907AFD}|TP_Final_MAVI_LucasBoffa\\TP_Final_MAVI_LucasBoffa.vcxproj|D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TP_Final_MAVI_LucasBoffa\\TP_Final_MAVI_LucasBoffa\\Asteroide.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5ABFB044-5BF6-43AB-899A-FC09CE907AFD}|TP_Final_MAVI_LucasBoffa\\TP_Final_MAVI_LucasBoffa.vcxproj|solutionrelative:TP_Final_MAVI_LucasBoffa\\Asteroide.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5ABFB044-5BF6-43AB-899A-FC09CE907AFD}|TP_Final_MAVI_LucasBoffa\\TP_Final_MAVI_LucasBoffa.vcxproj|D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TP_Final_MAVI_LucasBoffa\\TP_Final_MAVI_LucasBoffa\\Nivel.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5ABFB044-5BF6-43AB-899A-FC09CE907AFD}|TP_Final_MAVI_LucasBoffa\\TP_Final_MAVI_LucasBoffa.vcxproj|solutionrelative:TP_Final_MAVI_LucasBoffa\\Nivel.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ABFB044-5BF6-43AB-899A-FC09CE907AFD}|TP_Final_MAVI_LucasBoffa\\TP_Final_MAVI_LucasBoffa.vcxproj|D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TP_Final_MAVI_LucasBoffa\\TP_Final_MAVI_LucasBoffa\\Asteroide.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5ABFB044-5BF6-43AB-899A-FC09CE907AFD}|TP_Final_MAVI_LucasBoffa\\TP_Final_MAVI_LucasBoffa.vcxproj|solutionrelative:TP_Final_MAVI_LucasBoffa\\Asteroide.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5ABFB044-5BF6-43AB-899A-FC09CE907AFD}|TP_Final_MAVI_LucasBoffa\\TP_Final_MAVI_LucasBoffa.vcxproj|D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TP_Final_MAVI_LucasBoffa\\TP_Final_MAVI_LucasBoffa\\Nivel.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5ABFB044-5BF6-43AB-899A-FC09CE907AFD}|TP_Final_MAVI_LucasBoffa\\TP_Final_MAVI_LucasBoffa.vcxproj|solutionrelative:TP_Final_MAVI_LucasBoffa\\Nivel.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5ABFB044-5BF6-43AB-899A-FC09CE907AFD}|TP_Final_MAVI_LucasBoffa\\TP_Final_MAVI_LucasBoffa.vcxproj|D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TP_Final_MAVI_LucasBoffa\\TP_Final_MAVI_LucasBoffa\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5ABFB044-5BF6-43AB-899A-FC09CE907AFD}|TP_Final_MAVI_LucasBoffa\\TP_Final_MAVI_LucasBoffa.vcxproj|solutionrelative:TP_Final_MAVI_LucasBoffa\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ABFB044-5BF6-43AB-899A-FC09CE907AFD}|TP_Final_MAVI_LucasBoffa\\TP_Final_MAVI_LucasBoffa.vcxproj|D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TP_Final_MAVI_LucasBoffa\\TP_Final_MAVI_LucasBoffa\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5ABFB044-5BF6-43AB-899A-FC09CE907AFD}|TP_Final_MAVI_LucasBoffa\\TP_Final_MAVI_LucasBoffa.vcxproj|solutionrelative:TP_Final_MAVI_LucasBoffa\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{5ABFB044-5BF6-43AB-899A-FC09CE907AFD}|TP_Final_MAVI_LucasBoffa\\TP_Final_MAVI_LucasBoffa.vcxproj|D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TP_Final_MAVI_LucasBoffa\\TP_Final_MAVI_LucasBoffa\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5ABFB044-5BF6-43AB-899A-FC09CE907AFD}|TP_Final_MAVI_LucasBoffa\\TP_Final_MAVI_LucasBoffa.vcxproj|solutionrelative:TP_Final_MAVI_LucasBoffa\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +30,71 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Player.h",
-              "DocumentMoniker": "D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TP_Final_MAVI_LucasBoffa\\TP_Final_MAVI_LucasBoffa\\Player.h",
-              "RelativeDocumentMoniker": "TP_Final_MAVI_LucasBoffa\\Player.h",
-              "ToolTip": "D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TP_Final_MAVI_LucasBoffa\\TP_Final_MAVI_LucasBoffa\\Player.h",
-              "RelativeToolTip": "TP_Final_MAVI_LucasBoffa\\Player.h",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADYAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-18T17:13:27.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Player.cpp",
-              "DocumentMoniker": "D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TP_Final_MAVI_LucasBoffa\\TP_Final_MAVI_LucasBoffa\\Player.cpp",
-              "RelativeDocumentMoniker": "TP_Final_MAVI_LucasBoffa\\Player.cpp",
-              "ToolTip": "D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TP_Final_MAVI_LucasBoffa\\TP_Final_MAVI_LucasBoffa\\Player.cpp",
-              "RelativeToolTip": "TP_Final_MAVI_LucasBoffa\\Player.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-18T15:23:48.814Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Nivel.cpp",
               "DocumentMoniker": "D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TP_Final_MAVI_LucasBoffa\\TP_Final_MAVI_LucasBoffa\\Nivel.cpp",
               "RelativeDocumentMoniker": "TP_Final_MAVI_LucasBoffa\\Nivel.cpp",
               "ToolTip": "D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TP_Final_MAVI_LucasBoffa\\TP_Final_MAVI_LucasBoffa\\Nivel.cpp",
               "RelativeToolTip": "TP_Final_MAVI_LucasBoffa\\Nivel.cpp",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACYAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-18T14:48:03.698Z",
+              "WhenOpened": "2025-03-19T12:10:42.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Asteroide.h",
+              "DocumentMoniker": "D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TP_Final_MAVI_LucasBoffa\\TP_Final_MAVI_LucasBoffa\\Asteroide.h",
+              "RelativeDocumentMoniker": "TP_Final_MAVI_LucasBoffa\\Asteroide.h",
+              "ToolTip": "D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TP_Final_MAVI_LucasBoffa\\TP_Final_MAVI_LucasBoffa\\Asteroide.h",
+              "RelativeToolTip": "TP_Final_MAVI_LucasBoffa\\Asteroide.h",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-18T22:48:52.511Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Asteroide.cpp",
+              "DocumentMoniker": "D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TP_Final_MAVI_LucasBoffa\\TP_Final_MAVI_LucasBoffa\\Asteroide.cpp",
+              "RelativeDocumentMoniker": "TP_Final_MAVI_LucasBoffa\\Asteroide.cpp",
+              "ToolTip": "D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TP_Final_MAVI_LucasBoffa\\TP_Final_MAVI_LucasBoffa\\Asteroide.cpp",
+              "RelativeToolTip": "TP_Final_MAVI_LucasBoffa\\Asteroide.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-18T22:55:06.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Nivel.h",
               "DocumentMoniker": "D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TP_Final_MAVI_LucasBoffa\\TP_Final_MAVI_LucasBoffa\\Nivel.h",
               "RelativeDocumentMoniker": "TP_Final_MAVI_LucasBoffa\\Nivel.h",
               "ToolTip": "D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TP_Final_MAVI_LucasBoffa\\TP_Final_MAVI_LucasBoffa\\Nivel.h",
               "RelativeToolTip": "TP_Final_MAVI_LucasBoffa\\Nivel.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB0AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-18T14:47:43.233Z",
+              "WhenOpened": "2025-03-18T22:02:56.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TP_Final_MAVI_LucasBoffa\\TP_Final_MAVI_LucasBoffa\\main.cpp",
+              "RelativeDocumentMoniker": "TP_Final_MAVI_LucasBoffa\\main.cpp",
+              "ToolTip": "D:\\PROGRAMACION\\UNL-Tecnicatura Desarrollo de Videojuegos\\Modelos y Algoritmos para Videojuegos I\\TP_Final_MAVI_LucasBoffa\\TP_Final_MAVI_LucasBoffa\\main.cpp",
+              "RelativeToolTip": "TP_Final_MAVI_LucasBoffa\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-18T22:02:48.515Z",
               "EditorCaption": ""
             }
           ]

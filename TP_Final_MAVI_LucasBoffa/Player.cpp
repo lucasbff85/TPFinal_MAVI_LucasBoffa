@@ -4,18 +4,14 @@
 
 using namespace sf;
 
-Player::Player() {
+Player::Player(RenderWindow* wnd) {
     h_move = 0;
     v_move = 0;
 
-	esta_vivo = true;
-
     tex_nave.loadFromFile("../Assets/player.png");
     sprite_nave.setTexture(tex_nave);
-    sprite_nave.setOrigin(sprite_nave.getLocalBounds().width / 2, sprite_nave.getLocalBounds().height / 2);
+	Iniciar(wnd);
 	
-
-
    _soundbuffer.loadFromFile("../Sounds/thrust.wav");
    _sound.setBuffer(_soundbuffer);
 }
@@ -24,11 +20,17 @@ Player::~Player(){
 
 }
 
+void Player::Iniciar(RenderWindow* wnd) {
+	esta_vivo = true;
+	sprite_nave.setOrigin(sprite_nave.getLocalBounds().width / 2, sprite_nave.getLocalBounds().height / 2);
+	Posicionar(Vector2u(wnd->getSize().x / 2, wnd->getSize().y / 2));
+}
+
 bool Player::EstaVivo() {
     return esta_vivo;
 }
 
-void Player::Muerte() {
+void Player::Morir() {
     esta_vivo = false;
 }
 
@@ -53,7 +55,7 @@ void Player::ProcesarEventos()
 
 }
 
-void Player::Actualizar(Vector2i size, float deltaTime) {
+void Player::Actualizar(Vector2u size, float deltaTime) {
 
 	//rotacion
 	if (h_move != 0)
@@ -101,7 +103,7 @@ void Player::Actualizar(Vector2i size, float deltaTime) {
 }
 
 
-void Player::ManejarBordes(Vector2i size) {
+void Player::ManejarBordes(Vector2u size) {
 	if (sprite_nave.getPosition().x < 0) sprite_nave.setPosition(size.x, sprite_nave.getPosition().y);
 	if (sprite_nave.getPosition().x > size.x) sprite_nave.setPosition(0, sprite_nave.getPosition().y);
 	if (sprite_nave.getPosition().y < 0) sprite_nave.setPosition(sprite_nave.getPosition().x, size.y);
@@ -121,7 +123,10 @@ void Player::MoveStop()
 	_sound.stop();
 }
 
-void Player::Posicionar(Vector2i posicion) {
+void Player::Posicionar(Vector2u posicion) {
 	sprite_nave.setPosition(posicion.x, posicion.y);
 }
     
+Sprite& Player::GetSprite() {
+	return sprite_nave;
+}

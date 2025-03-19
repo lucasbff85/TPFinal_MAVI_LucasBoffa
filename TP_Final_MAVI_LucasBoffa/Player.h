@@ -46,18 +46,19 @@ class Player {
 	float mag;
 
 public:
-	Player();
+	Player(RenderWindow* wnd);
 	~Player();
-
+	void Iniciar(RenderWindow* wnd);
 	bool EstaVivo();
-	void Muerte();
+	void Morir();
 	void Dibujar(sf::RenderWindow* wnd);
 	void ProcesarEventos();
-	void Actualizar(Vector2i size, float deltaTime);
-	void ManejarBordes(Vector2i size);
+	void Actualizar(Vector2u size, float deltaTime);
+	void ManejarBordes(Vector2u size);
 	void MovePlay();
 	void MoveStop();
-	void Posicionar(Vector2i posicion);
+	void Posicionar(Vector2u posicion);
+	Sprite& GetSprite();
 };
 
 
