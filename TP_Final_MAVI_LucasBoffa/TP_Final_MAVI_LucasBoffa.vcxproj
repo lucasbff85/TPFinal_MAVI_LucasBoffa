@@ -131,19 +131,25 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Asteroide.cpp" />
+    <ClCompile Include="Button.cpp" />
     <ClCompile Include="Disparo.cpp" />
+    <ClCompile Include="End.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Nivel.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerCrosshair.cpp" />
+    <ClCompile Include="Start.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Asteroide.h" />
+    <ClInclude Include="Button.h" />
     <ClInclude Include="Disparo.h" />
     <ClInclude Include="End.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Nivel.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerCrosshair.h" />
     <ClInclude Include="Start.h" />
     <ClInclude Include="stdafx.h" />
   </ItemGroup>

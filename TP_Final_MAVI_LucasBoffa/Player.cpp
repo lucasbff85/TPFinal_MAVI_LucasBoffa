@@ -10,10 +10,10 @@ Player::Player(RenderWindow* wnd) {
 
     tex_nave.loadFromFile("../Assets/player.png");
     sprite_nave.setTexture(tex_nave);
-	Iniciar(wnd);
+	
 	
    _soundbuffer.loadFromFile("../Sounds/thrust.wav");
-   _sound.setBuffer(_soundbuffer);
+   _soundNave.setBuffer(_soundbuffer);
 }
 
 Player::~Player(){
@@ -21,7 +21,7 @@ Player::~Player(){
 }
 
 void Player::Iniciar(RenderWindow* wnd) {
-	esta_vivo = true;
+	
 	sprite_nave.setOrigin(sprite_nave.getLocalBounds().width / 2, sprite_nave.getLocalBounds().height / 2);
 	Posicionar(Vector2u(wnd->getSize().x / 2, wnd->getSize().y / 2));
 }
@@ -30,9 +30,6 @@ bool Player::EstaVivo() {
     return esta_vivo;
 }
 
-void Player::Morir() {
-    esta_vivo = false;
-}
 
 
 void Player::Dibujar(RenderWindow* wnd) {
@@ -66,9 +63,9 @@ void Player::Actualizar(Vector2u size, float deltaTime) {
 	//aceleracion y movimiento
 	if (v_move != 0)
 	{
-		if (play_thrust == false)
+		if (_avanzar == false)
 		{
-			play_thrust = true;
+			_avanzar = true;
 			MovePlay();
 		}
 
@@ -92,7 +89,7 @@ void Player::Actualizar(Vector2u size, float deltaTime) {
 		velocity.x *= 0.99f;  // Reduce la velocidad en cada frame
 		velocity.y *= 0.99f;
 		//si deja de acelerar, detiene el sonido de empuje
-		play_thrust = false;
+		_avanzar = false;
 		MoveStop();
 	}
 
@@ -112,15 +109,15 @@ void Player::ManejarBordes(Vector2u size) {
 
 void Player::MovePlay()
 {
-	_sound.setVolume(60);
-	_sound.setLoop(true);
-	_sound.play();
+	_soundNave.setVolume(60);
+	_soundNave.setLoop(true);
+	_soundNave.play();
 }
 
 void Player::MoveStop()
 {
-	_sound.setVolume(0);
-	_sound.stop();
+	_soundNave.setVolume(0);
+	_soundNave.stop();
 }
 
 void Player::Posicionar(Vector2u posicion) {
@@ -129,4 +126,12 @@ void Player::Posicionar(Vector2u posicion) {
     
 Sprite& Player::GetSprite() {
 	return sprite_nave;
+}
+
+Vector2f Player::GetPosition() {
+	return sprite_nave.getPosition();
+}
+
+float Player::GetRotation() {
+	return sprite_nave.getRotation();
 }

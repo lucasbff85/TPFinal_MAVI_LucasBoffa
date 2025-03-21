@@ -124,7 +124,7 @@ Vector2f Asteroide::Aparecer(Vector2u size) {
 }
 
 void Asteroide::Actualizar(float deltaTime, Vector2u size) {
-	velocidad = rand() % 1 + 0.05f;
+	velocidad = rand() % 1 + 0.17f;
 	Vector2f desplazamiento = direccion * velocidad * deltaTime;
 
 	ManejarBordes(size);
@@ -203,3 +203,10 @@ int Asteroide::GetNivel() {
 	return nivel;
 }
 
+float Asteroide::GetAngulo() {
+	return angulo;
+}
+
+void Asteroide::SetAngulo(float valor) {
+	angulo = valor;
+}

@@ -3,15 +3,15 @@
 #include <SFML/graphics.hpp>
 
 #include "stdafx.h"
-#include "Nivel.h"
+#include "Game.h"
 using namespace sf;
 
 
 
 int main() {
 
-    Nivel _nivel;
-    _nivel.ProcesarEventos();
+    Game _game;
+    _game.Play();
 
     return 0;
 }

@@ -32,4 +32,6 @@ public:
 	Vector2f Aparecer(Vector2u size);
 	Sprite& GetSprite();
 	int GetNivel();
+	float GetAngulo();
+	void SetAngulo(float valor);
 };

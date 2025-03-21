@@ -4,13 +4,23 @@
 using namespace sf;
 
 class Disparo {
-    CircleShape bala;
-    Vector2f direccion;
-    float velocidad = 5.0f;
+    
+    Vector2f _direccion;
+    float _velocidad;
+    float _tiempoVida;
+    float _tiempoRestante;
+    bool _estaVivo;
+    sf::Vector2f size;
+    sf::Vector2f posicion;
+    sf::Vector2f direccion;
 	
 public:
-    
-    Disparo(Vector2f pos, Vector2f dir);
-    void Actualizar();
+    CircleShape _bala;
+    Disparo();
+    ~Disparo();
+    void Iniciar(Vector2f pos, float angulo);
+    void Actualizar(float deltaTime);
+    void Morir();
     void Dibujar(RenderWindow* wnd);
+    bool Esta_Vivo();
 };

@@ -10,14 +10,14 @@ class Player {
 	Texture tex_nave;
 	Sprite sprite_nave;
 	SoundBuffer _soundbuffer;
-	Sound _sound;
+	Sound _soundNave;
 
 	float x_dir;
 	float y_dir;
 	vector<Disparo> proyectiles;
 
 
-	bool play_thrust;
+	bool _avanzar;
 	bool play_one = false;
 	bool esta_vivo;
 
@@ -43,14 +43,12 @@ class Player {
 
 	Vector2f velocidad;
 	Vector2f u_velocidad;
-	float mag;
 
 public:
 	Player(RenderWindow* wnd);
 	~Player();
 	void Iniciar(RenderWindow* wnd);
 	bool EstaVivo();
-	void Morir();
 	void Dibujar(sf::RenderWindow* wnd);
 	void ProcesarEventos();
 	void Actualizar(Vector2u size, float deltaTime);
@@ -58,6 +56,8 @@ public:
 	void MovePlay();
 	void MoveStop();
 	void Posicionar(Vector2u posicion);
+	Vector2f GetPosition();
+	float GetRotation();
 	Sprite& GetSprite();
 };
 
